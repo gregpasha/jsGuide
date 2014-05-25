@@ -1,0 +1,422 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getPoint"
+			],
+			[
+				"turkey",
+				"turkeySammy"
+			],
+			[
+				"ham",
+				"hamandmustard"
+			],
+			[
+				"sandy",
+				"sandyMaker"
+			],
+			[
+				"san",
+				"sandwhichMaker"
+			],
+			[
+				"make",
+				"makeMySandy"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1030,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scripts/functions2.js",
+			"settings":
+			{
+				"buffer_size": 1543,
+				"line_ending": "Unix",
+				"name": "functions2.js"
+			}
+		},
+		{
+			"file": "scripts/practice.js",
+			"settings":
+			{
+				"buffer_size": 593,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scripts/utility.js",
+			"settings":
+			{
+				"buffer_size": 648,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scripts/functionplayground.js",
+			"settings":
+			{
+				"buffer_size": 120,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "var app = app || {};\n\n// Loops\n\n	//foreach\n	(function() {\n	var numberList = [123, 234, 345, 456, 457];\n		numberList.forEach(function(num){\n			var j = num + 1;\n			//	console.log(j);\n		})\n	})();\n\n\n",
+			"file": "scripts/app.js",
+			"file_size": 194,
+			"file_write_time": 1400475797000000,
+			"settings":
+			{
+				"buffer_size": 195,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/gbailey/Sites/javascriptguide/scripts/gettersetter.js",
+		"/Users/gbailey/Sites/javascriptguide/index.html",
+		"/Users/gbailey/Sites/javascriptguide/scripts/core.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/advent direct reference/adhome.html",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/advent direct reference/portfoliodetail.html",
+		"/Users/gbailey/Sites/javascriptguide/scripts/utility.js",
+		"/Users/gbailey/Sites/javascriptguide/scripts/functionplayground.js",
+		"/Users/gbailey/Sites/javascriptguide/scripts/practice.js",
+		"/Users/gbailey/Sites/javascriptguide/scripts/closures.js",
+		"/Users/gbailey/Sites/javascriptguide/scripts/inheritance.js",
+		"/Users/gbailey/Sites/javascriptguide/scripts/objects.js",
+		"/Users/gbailey/Sites/javascriptguide/scripts/events.js",
+		"/Users/gbailey/Sites/javascriptguide/scripts/app.js",
+		"/Users/gbailey/Sites/javascriptguide/scripts/operators.js",
+		"/Users/gbailey/Sites/javascriptguide/scripts/functions.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/advent direct reference/portfoliodetailpagemodel.json",
+		"/Users/gbailey/Sites/JavascriptGuide/data/test.json",
+		"/Users/gbailey/Sites/JavascriptGuide/scripts/app.js",
+		"/Users/gbailey/Sites/JavascriptGuide/styles/main.css",
+		"/Users/gbailey/Sites/JavascriptGuide/scripts/inherticance.js",
+		"/Users/gbailey/Sites/JavascriptGuide/scripts/main.js",
+		"/Users/gbailey/Sites/JavascriptGuide/scripts/scope.js",
+		"/Users/gbailey/Sites/JavascriptGuide/scripts/operators.js",
+		"/Users/gbailey/Sites/JavascriptGuide/scripts/objects.js",
+		"/Users/gbailey/Sites/JavascriptGuide/scripts/functions.js",
+		"/Users/gbailey/Sites/JavascriptGuide/scripts/OutsideEvents.js",
+		"/Users/gbailey/Sites/JavascriptGuide/references/jquery_2_1_0",
+		"/Users/gbailey/Sites/JavascriptGuide/scripts/operators",
+		"/Users/gbailey/CodeMac/server.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/nodeserver/server.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/IHAUI/ADSampleApp/resources/adv-smp/js/utils/mustacheTemplate.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/IHAUI/ADSampleApp/Views/Withdrawal/Index.cshtml",
+		"/Users/gbailey/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/gbailey/Code/advent/IHAUI/ADSampleApp/Scripts/mustache.js",
+		"/Users/gbailey/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/gbailey/Code/advent/IHAUI/ADSampleApp/Controllers/HomeController.cs",
+		"/Users/gbailey/Library/Application Support/Sublime Text 2/Packages/Default/asdf",
+		"/Users/gbailey/SublimeProjects/test.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"onething",
+			"console",
+			"namespa",
+			"\n",
+			"\n	"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"// console",
+			"console."
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								658,
+								658
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scripts/functions2.js",
+					"settings":
+					{
+						"buffer_size": 1543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
+							]
+						],
+						"settings":
+						{
+							"auto_name": "functions2.js",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scripts/practice.js",
+					"settings":
+					{
+						"buffer_size": 593,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								593,
+								415
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scripts/utility.js",
+					"settings":
+					{
+						"buffer_size": 648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								148
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "scripts/functionplayground.js",
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "scripts/app.js",
+					"settings":
+					{
+						"buffer_size": 195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								175,
+								175
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Volumes/C/Users/gbailey.ADVENT/Code/sublimeProjects/ad_q2/adq2.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
