@@ -4,7 +4,7 @@
 define(function(require) {
 
 	// ECMA Script 5 strict mode makes javascript safer/better, use it.
-    'use strict';
+	'use strict';
 
    	// require some other modules and set as variables, this is the preferred syntax 
     //var utils = require('./utils');
