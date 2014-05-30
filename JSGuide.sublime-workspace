@@ -4,8 +4,104 @@
 		"selected_items":
 		[
 			[
+				"Widet",
+				"WidgetSlider"
+			],
+			[
+				"cure",
+				"currencySymbol"
+			],
+			[
+				"cultur",
+				"cultureCurrencySymbol"
+			],
+			[
+				"_d",
+				"_displayPrecision"
+			],
+			[
+				"_default",
+				"_defaultSymbol"
+			],
+			[
+				"curren",
+				"currencySymbol"
+			],
+			[
+				"_defu",
+				"_defaultISO"
+			],
+			[
+				"app",
+				"appDependencies"
+			],
+			[
+				"prom",
+				"promCurrencyStore2"
+			],
+			[
+				"ISO",
+				"ISOCurrency"
+			],
+			[
+				"Port",
+				"Portfolio"
+			],
+			[
+				"Cure",
+				"CurrencyType"
+			],
+			[
+				"Curren",
+				"CurrencyFieldTag"
+			],
+			[
+				"Curr",
+				"CurrencyFieldTag"
+			],
+			[
+				"Currency",
+				"CurrencyType"
+			],
+			[
+				"curr",
+				"currencyFieldTag"
+			],
+			[
+				"Curre",
+				"CurrencyFormat"
+			],
+			[
+				"IS",
+				"ISOCode"
+			],
+			[
+				"euro",
+				"euroSymbol"
+			],
+			[
+				"local",
+				"localizedCurrencyValue"
+			],
+			[
+				"lc",
+				"localizedCurrencyValue"
+			],
+			[
+				"rial",
+				"rialSymbol"
+			],
+			[
+				"pa",
+				"pageViewModel"
+			],
+			[
 				"get",
-				"getPoint"
+				"getModuleName"
+			],
+			[
+				"return",
+				"returnModule"
 			],
 			[
 				"turkey",
@@ -39,51 +135,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1030,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scripts/functions2.js",
-			"settings":
-			{
-				"buffer_size": 1543,
-				"line_ending": "Unix",
-				"name": "functions2.js"
-			}
-		},
-		{
-			"file": "scripts/practice.js",
-			"settings":
-			{
-				"buffer_size": 593,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scripts/utility.js",
-			"settings":
-			{
-				"buffer_size": 648,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scripts/functionplayground.js",
-			"settings":
-			{
-				"buffer_size": 120,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "var app = app || {};\n\n// Loops\n\n	//foreach\n	(function() {\n	var numberList = [123, 234, 345, 456, 457];\n		numberList.forEach(function(num){\n			var j = num + 1;\n			//	console.log(j);\n		})\n	})();\n\n\n",
-			"file": "scripts/app.js",
-			"file_size": 194,
-			"file_write_time": 1400475797000000,
-			"settings":
-			{
-				"buffer_size": 195,
+				"buffer_size": 1058,
 				"line_ending": "Unix"
 			}
 		}
@@ -91,11 +143,19 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 47.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -112,21 +172,119 @@
 	},
 	"file_history":
 	[
-		"/Users/gbailey/Sites/javascriptguide/scripts/gettersetter.js",
-		"/Users/gbailey/Sites/javascriptguide/index.html",
-		"/Users/gbailey/Sites/javascriptguide/scripts/core.js",
-		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/advent direct reference/adhome.html",
-		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/advent direct reference/portfoliodetail.html",
-		"/Users/gbailey/Sites/javascriptguide/scripts/utility.js",
-		"/Users/gbailey/Sites/javascriptguide/scripts/functionplayground.js",
-		"/Users/gbailey/Sites/javascriptguide/scripts/practice.js",
-		"/Users/gbailey/Sites/javascriptguide/scripts/closures.js",
-		"/Users/gbailey/Sites/javascriptguide/scripts/inheritance.js",
-		"/Users/gbailey/Sites/javascriptguide/scripts/objects.js",
-		"/Users/gbailey/Sites/javascriptguide/scripts/events.js",
-		"/Users/gbailey/Sites/javascriptguide/scripts/app.js",
-		"/Users/gbailey/Sites/javascriptguide/scripts/operators.js",
-		"/Users/gbailey/Sites/javascriptguide/scripts/functions.js",
+		"/Users/gbailey/Sites/jsGuide/styles/main.css",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.expression.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.format.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.renderer.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.http.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.getFileSize.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.formatter.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.WidgetSlider.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/controllers/adv.pageController.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/controllers/application.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.expandedSwiper.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/_adv.init.min.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.eventframework.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.utils.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/PageDesigner_HTML/resources/adv/js/advs.tableviewer.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/controls/adv.tableviewer.edit.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/controls/adv.tableViewer.core.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/controls/adv.scroller.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.device.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.navUtil.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.error.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/odata/adv.odata.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/Views/Shared/_Layout.cshtml",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/odata/adv.odata.hierarchyBuilder.js",
+		"/Users/gbailey/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/build/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/package.json",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/config/adv.uiConfig.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.enum.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/vendor/By.Selector.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/apollo/adv.contentPanel.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.sidePanel.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.router.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.ajax.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/controls/adv.tableViewer.inputParam.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.dataProvider.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/controls/adv.heatmap.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/config-landing.html",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.culture.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.metrics.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/admin.htm",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/controls/adv.widget.tabular.viewmodel.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/controls/adv.tableViewer.sortManager.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/barchart.js.multicurrency",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/js/controllers/appController.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/js/controllers/adv.pageController.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.culture.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.renderer.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/culture.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/build/gruntfile.js",
+		"/Users/gbailey/Google Drive/GDrive/vi_commands.txt",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/js/controllers/application.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/js/controllers/adv.appController.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.navUtil.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/currencyStore.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.ajax.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/js/controllers/adv.pageController-bak.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/pageController.bak.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/Models/advent.direct.page.portfolioDetail-expanded.json",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/Models/advent.direct.page.portfolioOverview.json",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/js/controls/binding/adv.tableviewer.celltemplate.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.format.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/js/controls/adv.tableViewer.core.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/Models/advent.direct.page.portfolioDetail.json",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/Views/Shared/BarChart.mustache",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/Models/advent.direct.page.portfolioOverview-expanded.json",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/LanguagePicker.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/skippytest3.orig.htm",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.utils.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/ctp_tidy",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/test",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/culture tests.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/vendor.min.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/theme/css/adv.tableviewer.css",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/js/apollo/adv.contentPanel.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.sidePanel.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/theme/css/advent.css",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/build/jshintrun1.txt",
+		"/Users/gbailey/Library/Application Support/Sublime Text 2/Packages/Visual Studio/visual-studio-dark-master/Theme - Visual Studio/Visual Studio.sublime-theme",
+		"/Users/gbailey/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/gbailey/Library/Application Support/Sublime Text 2/Packages/User/vsdark.sublime-settings",
+		"/Users/gbailey/Sites/JavascriptGuide/scripts/utility.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/advent direct reference/._adhome.html",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/advent direct reference/pageModel.js",
+		"/Users/gbailey/Sites/Require/RequireKendo2/scripts/app/palette2.js",
+		"/Users/gbailey/Sites/Require/RequireKendo2/build.js",
+		"/Users/gbailey/Sites/Require/RequireKendo1/scripts/app/main.js",
+		"/Users/gbailey/Sites/Require/RequireKendo1/scripts/main.js",
+		"/Users/gbailey/Sites/Require/RequireKendo1/scripts/app/mylibs/utils.js",
+		"/Users/gbailey/Sites/Require/RequireKendo1/scripts/app/mylibs/palette.js",
+		"/Users/gbailey/Sites/Require/RequireKendo1/scripts/app/app.js",
+		"/Users/gbailey/Sites/Require/RequireKendo1/scripts/app/mylibs/palette1.js",
+		"/Users/gbailey/Sites/Require/RequireKendo1/scripts/lib/require.js",
+		"/Users/gbailey/Sites/Require/RequireKendo1/scripts/lib/r.js",
+		"/Users/gbailey/Sites/Require/RequireBareBones3/app2.js",
+		"/Users/gbailey/Sites/Require/RequireBareBones3/app.js",
+		"/Users/gbailey/Sites/Require/RequireBareBones3/js/app/sub.js",
+		"/Users/gbailey/Sites/Require/RequireBareBones2/RequireBareBones.sublime-project",
+		"/Users/gbailey/Sites/RequireBareBones/scripts/main.js",
+		"/Users/gbailey/Sites/RequireBareBones/styles/main.css",
+		"/Users/gbailey/Sites/RequireBareBones/scripts/application.js",
+		"/Users/gbailey/Sites/RequireBareBones/scripts/module2.js",
+		"/Users/gbailey/Sites/RequireBareBones/scripts/module1.js",
+		"/Users/gbailey/Sites/RequireBareBones/scripts/utils.js",
+		"/Users/gbailey/Sites/Require/index.html",
+		"/Users/gbailey/Sites/Require/scripts/knockout.js",
+		"/Users/gbailey/Sites/Require/scripts/application.js",
+		"/Users/gbailey/Sites/Require/scripts/pagecontroller.js",
+		"/Users/gbailey/Sites/Require/Require.sublime-project",
+		"/Users/gbailey/Sites/RequireBareBones/RequireBareBones.sublime-project",
+		"/Users/gbailey/Sites/Require/scripts/shirt2.js",
+		"/Users/gbailey/Sites/Require/scripts/shirt1.js",
+		"/Users/gbailey/Sites/Require/scripts/pageController.js",
+		"/Users/gbailey/Sites/Require/scripts/dataModel.js",
 		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/advent direct reference/portfoliodetailpagemodel.json",
 		"/Users/gbailey/Sites/JavascriptGuide/data/test.json",
 		"/Users/gbailey/Sites/JavascriptGuide/scripts/app.js",
@@ -141,25 +299,23 @@
 		"/Users/gbailey/Sites/JavascriptGuide/references/jquery_2_1_0",
 		"/Users/gbailey/Sites/JavascriptGuide/scripts/operators",
 		"/Users/gbailey/CodeMac/server.js",
-		"/Volumes/C/Users/gbailey.ADVENT/Code/nodeserver/server.js",
-		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/IHAUI/ADSampleApp/resources/adv-smp/js/utils/mustacheTemplate.js",
-		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/IHAUI/ADSampleApp/Views/Withdrawal/Index.cshtml",
-		"/Users/gbailey/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Users/gbailey/Code/advent/IHAUI/ADSampleApp/Scripts/mustache.js",
-		"/Users/gbailey/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/gbailey/Code/advent/IHAUI/ADSampleApp/Controllers/HomeController.cs",
-		"/Users/gbailey/Library/Application Support/Sublime Text 2/Packages/Default/asdf",
-		"/Users/gbailey/SublimeProjects/test.js"
+		"/Volumes/C/Users/gbailey.ADVENT/Code/nodeserver/server.js"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 95.0,
 		"where_history":
 		[
+			"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI",
+			"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI",
+			"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/js",
+			"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI",
+			"<open files>",
+			"/Volumes/C/Users/gbailey.ADVENT/Code/advent/platform_ui_Q2/Advent.Direct.UI/Advent.Direct.UI/js"
 		]
 	},
 	"find_state":
@@ -167,18 +323,148 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"onething",
-			"console",
-			"namespa",
-			"\n",
-			"\n	"
+			"adv",
+			"== ",
+			"\"",
+			"getFileSize",
+			"\"",
+			"var adv = window.adv || {};\n// adv.format = {};\n\ndefine(function(require) {\n    \"use strict\";\n    \n    require(\"./adv.format\");\n    var utils = require(\"./adv.utils\");\n   \n    adv.format.types = { Currency: 'Currency', Percentage: 'Percentage', Float: 'Float', Int: 'Int'};\n    adv.format.toCurrency = function (val) {\n        if (val === null) { return \"\"; }\n        var dollars, cents;\n        var value = adv.format.toString(val, adv.format.types.Currency); //todo remove kendo dependancy from formatting\n        // If negative remove round parenthesis before superscript\n        if (parseInt(value, 10) < 0) {\n            value = value.substring(1, value.length); //remove -\n            dollars = value.substring(0, value.length - 2);\n            cents = value.slice(-2);\n            return \"($\" + dollars + \"<sup>\" + cents + \"</sup>)\";\n        } else {\n            dollars = value.substring(0, value.length - 2);\n            cents = value.slice(-2);    \n            return \"$\" + dollars + \"<sup>\" + cents + \"</sup>\";\n        }\n    };\n\n    adv.format.toString = function (num, type, decimalCount) {\n\n        var p, negative = '';\n        \n        if (typeof num === \"string\") {\n            num = parseFloat(num);\n        }\n        decimalCount = decimalCount || 2;\n        if (!utils.isNumeric(num)) {\n            //throw num + ' is not a supported number';\n            utils.logger('Error -> '+num + ' is not a supported number');\n            return \"\";\n        }\n        switch (type) {\n            case adv.format.types.Currency:     \n                if (num < 0) {\n                    num = Math.abs(num);\n                    p = num.toFixed(decimalCount).split(\".\");\n                    return \"-\" + p[0].split(\"\").reverse().reduce(function (acc, num, i, orig) {\n                        return num + (i && !(i % 3) ? \",\" : \"\") + acc;\n                    }, \"\") + \".\" + p[1] + \"\";\n                } else {\n                    p = num.toFixed(decimalCount).split(\".\");\n                    return \"\" + p[0].split(\"\").reverse().reduce(function (acc, num, i, orig) {\n                        return num + (i && !(i % 3) ? \",\" : \"\") + acc;\n                    }, \"\") + \".\" + p[1];\n                }\n            case adv.format.types.Percentage:\n                p = num.toFixed(decimalCount).split(\".\");\n                // don't factor negatives into the equation\n                if (p[0][0] === '-') {\n                    p[0] = p[0].substring(1);\n                    negative = '-';\n                } \n                return negative + p[0].split(\"\").reverse().reduce(function (acc, num, i, orig) {\n                    return num + (i && !(i % 3) ? \",\" : \"\") + acc;\n                }, \"\") + \".\" + p[1] +'<sup>%</sup>';\n            case adv.format.types.Int:            \n                if (num < 0) {\n                    num = Math.abs(num);\n                    p = num.toFixed(0).split(\".\");\n                    return \"-\" + p[0].split(\"\").reverse().reduce(function (acc, num, i, orig) {\n                        return num + (i && !(i % 3) ? \",\" : \"\") + acc;\n                    }, \"\");\n\n                } else {\n                    p = num.toFixed(0).split(\".\");\n                    return p[0].split(\"\").reverse().reduce(function (acc, num, i, orig) {\n                        return num + (i && !(i % 3) ? \",\" : \"\") + acc;\n                    }, \"\");\n                }        \n            case adv.format.types.Float:\n                if (num < 0) {\n                    num = Math.abs(num);\n                    p = num.toFixed(decimalCount).split(\".\");\n                    return \"-\"+p[0].split(\"\").reverse().reduce(function (acc, num, i, orig) {\n                        return num + (i && !(i % 3) ? \",\" : \"\") + acc;\n                    }, \"\") + \".\" + p[1];\n\n                } else {\n                    p = num.toFixed(decimalCount).split(\".\");\n                    return p[0].split(\"\").reverse().reduce(function (acc, num, i, orig) {\n                        return num + (i && !(i % 3) ? \",\" : \"\") + acc;\n                    }, \"\") + \".\" + p[1];\n                }\n        }\n        \n    };\n\n    adv.format.positiveNegativeCurrency = function (value, currencyString) {    \n        if (value < 0) {\n            return \"<span class='adv-warning-color'>\" + currencyString + \"</span>\";\n        }\n        else if (value > 0) {\n            return \"<span class='adv-positive-color'>\" + currencyString + \"</span>\";\n        } else {\n            return \"<span>\" + currencyString + \"</span>\";\n        }\n    };\n\n    adv.format.positiveNegativePercentage = function (value) {\n\n        var amountString = adv.format.toString(value, adv.format.types.Percentage, 2);\n\n        if (value < 0) {\n            return \"<span class='adv-warning-color'>\" + amountString + \"</span>\";\n        }\n        else if (value > 0) {\n            return \"<span class='adv-positive-color'>\" + amountString + \"</span>\";\n        } else {\n            return \"<span>\" + amountString + \"</span>\";\n        }\n    };\n\n    //adv.format.makeDonuts = function (val) {\n    //    var perValue = val / 100;\n    //    var pctAssets = adv.format.toString(perValue, \"p1\", true);\n    //    var pctAngle = perValue * 360;\n\n    //    if (pctAssets != \"\") {\n    //        if (Math.abs(perValue) < 0.50) {\n    //            return \"<div class='adv-mini-donut-container'><div class='adv-mini-donut-background'></div><div class='adv-mini-donut-slice adv-hold'><div class='adv-mini-donut' data-pctangle='\" + pctAngle + \"' ></div></div></div><div class='adv-mini-donut-hole'></div><div class='adv-mini-donut-legend'>\" + pctAssets + \"</div>\";\n    //        }\n    //        else {\n    //            //slices that take up more that 50% of chart need to be generated as a 180 degree slice and then a second slice with the remainder\n    //            return \"<div class='adv-mini-donut-container'><div class='adv-mini-donut-background'></div><div class='adv-mini-donut-slice adv-hold'><div class='adv-mini-donut' style='-webkit-transform:rotate(180deg);'></div></div><div class='adv-mini-donut-slice adv-hold'style='-webkit-transform:rotate(180deg);'><div class='adv-mini-donut' style='-webkit-transform:rotate(\" + (pctAngle - 180) + \"deg);'></div></div></div><div class='adv-mini-donut-hole'></div><div class='adv-mini-donut-legend'>\" + pctAssets + \"</div>\";\n    //        }\n    //    }\n    //    return \"\";\n        \n    //};\n    //method with no kendo dependancy\n    adv.format.makeChart = function (val) {\n        var perValue = val / 100;\n        var pctAssets = adv.format.toString(val, adv.format.types.Percentage); //ADV.toString(val, \"p1\", true); \n        var pctAngle = perValue * 360;\n\n        if (pctAssets != \"\") {\n            if (Math.abs(perValue) < 0.50) {\n                return \"<div class='adv-mini-donut-container'><div class='adv-mini-donut-background'></div><div class='adv-mini-donut-slice adv-hold'><div class='adv-mini-donut' data-pctangle='\" + pctAngle + \"' ></div></div></div><div class='adv-mini-donut-hole'></div><div class='adv-mini-donut-legend'>\" + pctAssets + \"</div>\";\n            }\n            else {\n                //slices that take up more that 50% of chart need to be generated as a 180 degree slice and then a second slice with the remainder\n                return \"<div class='adv-mini-donut-container'><div class='adv-mini-donut-background'></div><div class='adv-mini-donut-slice adv-hold'><div class='adv-mini-donut' style='-webkit-transform:rotate(180deg);'></div></div><div class='adv-mini-donut-slice adv-hold'style='-webkit-transform:rotate(180deg);'><div class='adv-mini-donut' style='-webkit-transform:rotate(\" + (pctAngle - 180) + \"deg);'></div></div></div><div class='adv-mini-donut-hole'></div><div class='adv-mini-donut-legend'>\" + pctAssets + \"</div>\";\n            }\n        }\n        return \"\";\n\n    };\n    adv.format.toDate = function () {\n        var token = /d{1,4}|m{1,4}|yy(?:yy)?|([HhMsTt])\\1?|[LloSZ]|\"[^\"]*\"|'[^']*'/g,\n              timezone = /\\b(?:[PMCEA][SDP]T|(?:Pacific|Mountain|Central|Eastern|Atlantic) (?:Standard|Daylight|Prevailing) Time|(?:GMT|UTC)(?:[-+]\\d{4})?)\\b/g,\n              timezoneClip = /[^-+\\dA-Z]/g,\n              pad = function (val, len) {\n                  val = String(val);\n                  len = len || 2;\n                  while (val.length < len) val = \"0\" + val;\n                  return val;\n              };\n\n        // Regexes and supporting functions are cached through closure\n        return function (date, mask, utc) {\n            var dF = adv.format.toDate;\n\n            // You can't provide utc if you skip other args (use the \"UTC:\" mask prefix)\n            if (arguments.length === 1 && Object.prototype.toString.call(date) === \"[object String]\" && !/\\d/.test(date)) {\n                mask = date;\n                date = undefined;\n            }\n\n            // Passing date through Date applies Date.parse, if necessary\n            date = date ? new Date(date) : new Date();\n            if (isNaN(date)) throw SyntaxError(\"invalid date\");\n\n            mask = String(dF.masks[mask] || mask || dF.masks[\"default\"]);\n\n            // Allow setting the utc argument via the mask\n            if (mask.slice(0, 4) === \"UTC:\") {\n                mask = mask.slice(4);\n                utc = true;\n            }\n\n            var _ = utc ? \"getUTC\" : \"get\",\n                     d = date[_ + \"Date\"](),\n                     D = date[_ + \"Day\"](),\n                     m = date[_ + \"Month\"](),\n                     y = date[_ + \"FullYear\"](),\n                     H = date[_ + \"Hours\"](),\n                     M = date[_ + \"Minutes\"](),\n                     s = date[_ + \"Seconds\"](),\n                     L = date[_ + \"Milliseconds\"](),\n                     o = utc ? 0 : date.getTimezoneOffset(),\n                     flags = {\n                         d: d,\n                         dd: pad(d),\n                         ddd: dF.i18n.dayNames[D],\n                         dddd: dF.i18n.dayNames[D + 7],\n                         m: m + 1,\n                         mm: pad(m + 1),\n                         mmm: dF.i18n.monthNames[m],\n                         mmmm: dF.i18n.monthNames[m + 12],\n                         yy: String(y).slice(2),\n                         yyyy: y,\n                         h: H % 12 || 12,\n                         hh: pad(H % 12 || 12),\n                         H: H,\n                         HH: pad(H),\n                         M: M,\n                         MM: pad(M),\n                         s: s,\n                         ss: pad(s),\n                         l: pad(L, 3),\n                         L: pad(L > 99 ? Math.round(L / 10) : L),\n                         t: H < 12 ? \"a\" : \"p\",\n                         tt: H < 12 ? \"am\" : \"pm\",\n                         T: H < 12 ? \"A\" : \"P\",\n                         TT: H < 12 ? \"AM\" : \"PM\",\n                         Z: utc ? \"UTC\" : (String(date).match(timezone) || [\"\"]).pop().replace(timezoneClip, \"\"),\n                         o: (o > 0 ? \"-\" : \"+\") + pad(Math.floor(Math.abs(o) / 60) * 100 + Math.abs(o) % 60, 4),\n                         S: [\"th\", \"st\", \"nd\", \"rd\"][d % 10 > 3 ? 0 : (d % 100 - d % 10 !== 10) * d % 10]\n                     };\n\n            return mask.replace(token, function ($0) {\n                return $0 in flags ? flags[$0] : $0.slice(1, $0.length - 1);\n            });\n        };\n    } ();\n\n    // Some common format strings\n    adv.format.toDate.masks = {\n        \"default\": \"ddd mmm dd yyyy HH:MM:ss\",\n        shortDate: \"m/d/yy\",\n        mediumDate: \"mmm d, yyyy\",\n        longDate: \"mmmm d, yyyy\",\n        fullDate: \"dddd, mmmm d, yyyy\",\n        shortTime: \"h:MM TT\",\n        mediumTime: \"h:MM:ss TT\",\n        longTime: \"h:MM:ss TT Z\",\n        isoDate: \"yyyy-mm-dd\",\n        isoTime: \"HH:MM:ss\",\n        isoDateTime: \"yyyy-mm-dd'T'HH:MM:ss\",\n        isoUtcDateTime: \"UTC:yyyy-mm-dd'T'HH:MM:ss'Z'\"\n    };\n\n    // Internationalization strings\n    adv.format.toDate.i18n = {\n        dayNames: [\n              \"Sun\", \"Mon\", \"Tue\", \"Wed\", \"Thu\", \"Fri\", \"Sat\",\n              \"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"\n        ],\n        monthNames: [\n              \"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\", \"Jul\", \"Aug\", \"Sep\", \"Oct\", \"Nov\", \"Dec\",\n              \"January\", \"February\", \"March\", \"April\", \"May\", \"June\", \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n        ]\n    };\n\n    return adv.formatter_old;\n});",
+			"adv.formatter.js",
+			"format",
+			"format.js",
+			"formatter",
+			"adv.formatter.js",
+			"formatter.js",
+			"formatter",
+			"\"",
+			"adv.",
+			"swiper",
+			"\"",
+			"expanded",
+			"///",
+			"expandedSwiper",
+			"widgetSlide",
+			"var By = ",
+			"expandedSwiper",
+			"newpath",
+			"'',",
+			"\"",
+			"lastmatch",
+			"By",
+			"By.",
+			"By",
+			"expanded",
+			"adv.WidgetSlider",
+			"eventFramework",
+			"EventFramework",
+			"eventframework",
+			"EventFramework",
+			"\"",
+			"adv.error",
+			"device",
+			"\"",
+			"'",
+			"adv.device.init",
+			"adv.enum.device.",
+			"adv.enum",
+			"advEnum",
+			"adv.enum",
+			"moment",
+			"adv.enum",
+			"adv.enumadv",
+			"adv.enum",
+			"adv.enumadv",
+			"adv.enum",
+			"\"",
+			"adv.enum",
+			"adv.enumadv",
+			"adv.enum",
+			"\"",
+			"adv.enum",
+			"adv",
+			"\"",
+			"SidePanel",
+			"adv",
+			"pagecontroller",
+			"SidePanel",
+			"click.sidePanel",
+			"pagecontroller",
+			"var pageController",
+			"adv",
+			"sidePanel",
+			"\"",
+			"}\n",
+			";\n",
+			"adv.routes",
+			"adv.route",
+			"adv.heatmap",
+			"adv.routes",
+			"adv.metrics",
+			"metrics",
+			"Metrics",
+			"Metrcis",
+			"EventFramework",
+			"adv.metrics",
+			"metrics",
+			"adv.metrics",
+			"adv.",
+			"currencyStore",
+			"getColumnByColumnTag('EMV'",
+			"getColumnByColumnTag",
+			"currencySymbol",
+			"this",
+			";//",
+			"encodeURI",
+			"buildNavigationCrumbs",
+			"navController",
+			"navUtil",
+			"MVB",
+			"small-multiple",
+			"beginning balance",
+			"market value",
+			"market vlaue",
+			"beginning balance",
+			"% Assets",
+			"\n                    ",
+			"% Assets",
+			"allocation",
+			"renderer",
+			"\"CurrencyType\"",
+			"currencytype",
+			"\"Portfolio\"",
+			"holdings",
+			"HOldings",
+			"getentityprop",
+			"setupPage",
+			"isocode",
+			"bookIso",
+			"accountsummary",
+			"portfoliofixedincome",
+			"portfolioActivity",
+			"portfoliobalance",
+			"\"CurrencyType",
+			"\"Portfolio\"",
+			"Book",
+			"preci",
+			"skipp",
+			"metaData",
+			"adv.format",
+			"format",
+			"fieldtag"
 		],
-		"highlight": true,
+		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"'",
+			"\"",
+			"enums",
+			"advEnum",
+			"'",
+			"metrics",
+			"this",
 			"// console",
 			"console."
 		],
@@ -191,7 +477,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -199,154 +485,21 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1030,
+						"buffer_size": 1058,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								658,
-								658
+								607,
+								607
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "scripts/functions2.js",
-					"settings":
-					{
-						"buffer_size": 1543,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								273,
-								273
-							]
-						],
-						"settings":
-						{
-							"auto_name": "functions2.js",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "scripts/practice.js",
-					"settings":
-					{
-						"buffer_size": 593,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								593,
-								415
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "scripts/utility.js",
-					"settings":
-					{
-						"buffer_size": 648,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								148,
-								148
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "scripts/functionplayground.js",
-					"settings":
-					{
-						"buffer_size": 120,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								91,
-								91
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "scripts/app.js",
-					"settings":
-					{
-						"buffer_size": 195,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								175,
-								175
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -398,6 +551,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"installpackage",
+				"Advent.Direct.UI/build/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/package.json"
+			]
 		],
 		"width": 0.0
 	},
@@ -408,7 +565,7 @@
 		[
 			[
 				"",
-				"/Volumes/C/Users/gbailey.ADVENT/Code/sublimeProjects/ad_q2/adq2.sublime-project"
+				"/Users/gbailey/Sites/javascriptguide/JSGuide.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -417,6 +574,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 270.0,
 	"status_bar_visible": true
 }
