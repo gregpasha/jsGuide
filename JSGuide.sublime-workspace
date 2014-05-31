@@ -135,7 +135,39 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1058,
+				"buffer_size": 1051,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 462,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/require_config.js",
+			"settings":
+			{
+				"buffer_size": 1817,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/basics.js",
+			"settings":
+			{
+				"buffer_size": 1219,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/practice.js",
+			"settings":
+			{
+				"buffer_size": 756,
 				"line_ending": "Unix"
 			}
 		}
@@ -172,6 +204,8 @@
 	},
 	"file_history":
 	[
+		"/Users/gbailey/Sites/jsGuide/js/app.js",
+		"/Users/gbailey/Sites/jsGuide/scripts/requireconfig.js",
 		"/Users/gbailey/Sites/jsGuide/styles/main.css",
 		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.expression.js",
 		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.format.js",
@@ -297,9 +331,7 @@
 		"/Users/gbailey/Sites/JavascriptGuide/scripts/functions.js",
 		"/Users/gbailey/Sites/JavascriptGuide/scripts/OutsideEvents.js",
 		"/Users/gbailey/Sites/JavascriptGuide/references/jquery_2_1_0",
-		"/Users/gbailey/Sites/JavascriptGuide/scripts/operators",
-		"/Users/gbailey/CodeMac/server.js",
-		"/Volumes/C/Users/gbailey.ADVENT/Code/nodeserver/server.js"
+		"/Users/gbailey/Sites/JavascriptGuide/scripts/operators"
 	],
 	"find":
 	{
@@ -307,7 +339,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 95.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI",
@@ -323,6 +355,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"separated",
+			"})();",
 			"adv",
 			"== ",
 			"\"",
@@ -448,9 +482,7 @@
 			"preci",
 			"skipp",
 			"metaData",
-			"adv.format",
-			"format",
-			"fieldtag"
+			"adv.format"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -477,7 +509,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -485,20 +517,132 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1058,
+						"buffer_size": 1051,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								607,
-								607
+								977,
+								977
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/app.js",
+					"settings":
+					{
+						"buffer_size": 462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								401,
+								401
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/require_config.js",
+					"settings":
+					{
+						"buffer_size": 1817,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								1804
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/basics.js",
+					"settings":
+					{
+						"buffer_size": 1219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1120,
+								1120
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/practice.js",
+					"settings":
+					{
+						"buffer_size": 756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								755,
+								755
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
