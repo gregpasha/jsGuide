@@ -15,9 +15,16 @@ require.config({
 //     console.log(x);
 // });
 
-require(['basics','jQuery'], function(basics,$){
+require([
+    'jQuery',
+    'basics/variableNames',
+    'basics/core'
+    ], function(
+        $,
+        variableNames,
+        core) {
     
-    var module1 = new basics();
+    var module1 = new variableNames();
     
     console.log('jQuery version:', $.fn.jquery); 
 });

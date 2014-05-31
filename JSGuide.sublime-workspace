@@ -143,7 +143,7 @@
 			"file": "js/app.js",
 			"settings":
 			{
-				"buffer_size": 462,
+				"buffer_size": 490,
 				"line_ending": "Unix"
 			}
 		},
@@ -156,18 +156,18 @@
 			}
 		},
 		{
-			"file": "js/basics.js",
-			"settings":
-			{
-				"buffer_size": 1219,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "js/practice.js",
 			"settings":
 			{
 				"buffer_size": 756,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/basics.js",
+			"settings":
+			{
+				"buffer_size": 1311,
 				"line_ending": "Unix"
 			}
 		}
@@ -204,6 +204,7 @@
 	},
 	"file_history":
 	[
+		"/Users/gbailey/Sites/jsGuide/js/basics.js",
 		"/Users/gbailey/Sites/jsGuide/js/app.js",
 		"/Users/gbailey/Sites/jsGuide/scripts/requireconfig.js",
 		"/Users/gbailey/Sites/jsGuide/styles/main.css",
@@ -330,8 +331,7 @@
 		"/Users/gbailey/Sites/JavascriptGuide/scripts/objects.js",
 		"/Users/gbailey/Sites/JavascriptGuide/scripts/functions.js",
 		"/Users/gbailey/Sites/JavascriptGuide/scripts/OutsideEvents.js",
-		"/Users/gbailey/Sites/JavascriptGuide/references/jquery_2_1_0",
-		"/Users/gbailey/Sites/JavascriptGuide/scripts/operators"
+		"/Users/gbailey/Sites/JavascriptGuide/references/jquery_2_1_0"
 	],
 	"find":
 	{
@@ -355,6 +355,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"basics",
 			"separated",
 			"})();",
 			"adv",
@@ -481,8 +482,7 @@
 			"Book",
 			"preci",
 			"skipp",
-			"metaData",
-			"adv.format"
+			"metaData"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -509,7 +509,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -544,15 +544,15 @@
 					"file": "js/app.js",
 					"settings":
 					{
-						"buffer_size": 462,
+						"buffer_size": 490,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								401,
-								401
+								426,
+								426
 							]
 						],
 						"settings":
@@ -599,33 +599,6 @@
 				},
 				{
 					"buffer": 3,
-					"file": "js/basics.js",
-					"settings":
-					{
-						"buffer_size": 1219,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1120,
-								1120
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "js/practice.js",
 					"settings":
 					{
@@ -638,6 +611,33 @@
 							[
 								755,
 								755
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/basics.js",
+					"settings":
+					{
+						"buffer_size": 1311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1299,
+								1299
 							]
 						],
 						"settings":
