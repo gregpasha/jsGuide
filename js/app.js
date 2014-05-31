@@ -18,14 +18,16 @@ require.config({
 require([
     'jQuery',
     'basics/variableNames',
-    'basics/core'
+    'basics/core',
+    'basics/truthyfalsy'
     ], function(
         $,
         variableNames,
-        core) {
+        core,
+        truthyfalsy) {
     
-    var module1 = new variableNames();
-    
+    var varNames = new variableNames();
+    truthyfalsy();   
     console.log('jQuery version:', $.fn.jquery); 
 });
 
