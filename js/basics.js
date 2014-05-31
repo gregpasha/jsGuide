@@ -13,7 +13,7 @@ define(function(require) {
 	// this is what we return from the function that gets created as our module, it could be a function or object literal
 	var basics = function () {
 	
-	// it is good practice to store this as a variable, we prefer using "self", but others use "that"
+		// it is good practice to store this as a variable, we prefer using "self", but others use "that"
 		// this is not a variable, and can change depending on the calling context
 		var self = this;
 		
