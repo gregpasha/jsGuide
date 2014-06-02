@@ -1,4 +1,3 @@
-
 // define is a requirejs function that declares our module to require, 
 // we can get require as an argument to the function to load other modules
 define(function(require) {

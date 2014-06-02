@@ -1,6 +1,7 @@
 define(function(require) {
+	'use strict'
 
-	var core = function() {
+	var IIFE = function() {
 
 		// All code in this project is wrapped in an IIFE (Immediately Invoked Function Expression) 
 		// An IIFE creates a function scope and then gets executed, I am using this technique so you can put breakpoints 
@@ -20,27 +21,12 @@ define(function(require) {
 			var something = global.something;
 		})(this);
 
-
-		// literals are common way of declaring arrays, objects and functions in current javascript
-		// as opposed to using the New operator
-		(function() {
-
-			// array 
-			var arr1 = []; 
-
-			// object
-			var obj1 = {}; 
-
-			// function
-			var square1 = function(){}; 
-
-		})();
-
 	}
 
-	return core;
+	return IIFE;
 });
 
 
 
 
+	

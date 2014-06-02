@@ -2,6 +2,7 @@
 // Javascript has the concepts of truthy/falsy (long before Stephen Colbert)
 // This means that Javascript will coerce values to true/false
 define(function(require) {
+	'use strict'
 
 	var truthyfalsy = function() {
 

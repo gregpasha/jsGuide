@@ -1,3 +1,4 @@
+// bootsrap app with requirejs
 require.config({
     paths: {
         'jQuery': 'vendor/jQuery',
@@ -9,14 +10,11 @@ require.config({
     }
 });
 
-// require(['jQuery','basics'], function($,basics){
-//     console.log('jQuery version:', $.fn.jquery); 
-//     var x = new basics();
-//     console.log(x);
-// });
-
+// load modules
 require([
     'jQuery',
+    'modules/blankObjectModule',
+    'modules/blankFunctionModule',
     'basics/variableNames',
     'basics/core',
     'basics/truthyfalsy'
