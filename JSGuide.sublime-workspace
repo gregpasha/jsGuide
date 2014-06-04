@@ -135,39 +135,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1051,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/app.js",
-			"settings":
-			{
-				"buffer_size": 490,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/require_config.js",
-			"settings":
-			{
-				"buffer_size": 1817,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/practice.js",
-			"settings":
-			{
-				"buffer_size": 756,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/basics.js",
-			"settings":
-			{
-				"buffer_size": 1311,
+				"buffer_size": 464,
 				"line_ending": "Unix"
 			}
 		}
@@ -204,8 +172,27 @@
 	},
 	"file_history":
 	[
-		"/Users/gbailey/Sites/jsGuide/js/basics.js",
 		"/Users/gbailey/Sites/jsGuide/js/app.js",
+		"/Users/gbailey/Sites/jsGuide/js/require_config.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/widget/adv.widget.groupSearchBox.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/build/gruntfile.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/page/adv.pageState.js",
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/Views/Shared/PageControllerScript.mustache",
+		"/Users/gbailey/Sites/jsGuide/js/basics.js",
+		"/Users/gbailey/Sites/jsGuide/js/basics/IIFE.js",
+		"/Users/gbailey/Sites/jsGuide/js/basics/core.js",
+		"/Users/gbailey/Sites/jsGuide/js/basics/nullandundefined.js",
+		"/Users/gbailey/Sites/jsGuide/js/projectConventions/ecmaScript.js",
+		"/Users/gbailey/Sites/jsGuide/js/basics/math.js",
+		"/Users/gbailey/Sites/jsGuide/js/basics/functionBasics.js",
+		"/Users/gbailey/Sites/jsGuide/js/basics/blankFunctionModule.js",
+		"/Users/gbailey/Sites/jsGuide/js/basics/blankObjectModule.js",
+		"/Users/gbailey/Sites/jsGuide/js/basics/truthyfalsy.js",
+		"/Users/gbailey/Sites/jsGuide/js/projectConventions/blankFunctionModule.js",
+		"/Users/gbailey/Sites/jsGuide/js/projectConventions/blankObjectModule.js",
+		"/Users/gbailey/Sites/jsGuide/js/projectConventions/IIFE.js",
+		"/Users/gbailey/Sites/jsGuide/js/basics/variableNames.js",
+		"/Users/gbailey/Sites/jsGuide/js/practice.js",
 		"/Users/gbailey/Sites/jsGuide/scripts/requireconfig.js",
 		"/Users/gbailey/Sites/jsGuide/styles/main.css",
 		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI/js/adv.expression.js",
@@ -312,26 +299,7 @@
 		"/Users/gbailey/Sites/RequireBareBones/scripts/utils.js",
 		"/Users/gbailey/Sites/Require/index.html",
 		"/Users/gbailey/Sites/Require/scripts/knockout.js",
-		"/Users/gbailey/Sites/Require/scripts/application.js",
-		"/Users/gbailey/Sites/Require/scripts/pagecontroller.js",
-		"/Users/gbailey/Sites/Require/Require.sublime-project",
-		"/Users/gbailey/Sites/RequireBareBones/RequireBareBones.sublime-project",
-		"/Users/gbailey/Sites/Require/scripts/shirt2.js",
-		"/Users/gbailey/Sites/Require/scripts/shirt1.js",
-		"/Users/gbailey/Sites/Require/scripts/pageController.js",
-		"/Users/gbailey/Sites/Require/scripts/dataModel.js",
-		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/advent direct reference/portfoliodetailpagemodel.json",
-		"/Users/gbailey/Sites/JavascriptGuide/data/test.json",
-		"/Users/gbailey/Sites/JavascriptGuide/scripts/app.js",
-		"/Users/gbailey/Sites/JavascriptGuide/styles/main.css",
-		"/Users/gbailey/Sites/JavascriptGuide/scripts/inherticance.js",
-		"/Users/gbailey/Sites/JavascriptGuide/scripts/main.js",
-		"/Users/gbailey/Sites/JavascriptGuide/scripts/scope.js",
-		"/Users/gbailey/Sites/JavascriptGuide/scripts/operators.js",
-		"/Users/gbailey/Sites/JavascriptGuide/scripts/objects.js",
-		"/Users/gbailey/Sites/JavascriptGuide/scripts/functions.js",
-		"/Users/gbailey/Sites/JavascriptGuide/scripts/OutsideEvents.js",
-		"/Users/gbailey/Sites/JavascriptGuide/references/jquery_2_1_0"
+		"/Users/gbailey/Sites/Require/scripts/application.js"
 	],
 	"find":
 	{
@@ -339,7 +307,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 95.0,
 		"where_history":
 		[
 			"/Volumes/C/Users/gbailey.ADVENT/Code/advent/q2/Advent.Direct.UI/Advent.Direct.UI",
@@ -355,6 +323,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"appPath",
+			"pageState",
+			"@todo, fix this later like local-pageController",
+			"kicks",
 			"basics",
 			"separated",
 			"})();",
@@ -478,11 +450,7 @@
 			"portfolioActivity",
 			"portfoliobalance",
 			"\"CurrencyType",
-			"\"Portfolio\"",
-			"Book",
-			"preci",
-			"skipp",
-			"metaData"
+			"\"Portfolio\""
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -509,7 +477,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -517,132 +485,20 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1051,
+						"buffer_size": 464,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								977,
-								977
+								195,
+								196
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/app.js",
-					"settings":
-					{
-						"buffer_size": 490,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								426,
-								426
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "js/require_config.js",
-					"settings":
-					{
-						"buffer_size": 1817,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								80,
-								1804
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "js/practice.js",
-					"settings":
-					{
-						"buffer_size": 756,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								755,
-								755
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "js/basics.js",
-					"settings":
-					{
-						"buffer_size": 1311,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1299,
-								1299
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -685,6 +541,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 108.0
+	},
 	"replace":
 	{
 		"height": 64.0
