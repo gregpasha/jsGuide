@@ -1,7 +1,7 @@
 define(function(require) {
 	'use strict'
 
-	var core = function() {
+	var basics = function() {
 
 		// warning - give variables good names, mine are terrible in this sample module 
 		// because it doesn't do anything and ... lazy
@@ -54,6 +54,6 @@ define(function(require) {
 
 	}
 	
-	return core;
+	return basics;
 });
 
