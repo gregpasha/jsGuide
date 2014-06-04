@@ -42,11 +42,11 @@ define(function(require) {
 			// this means if h is true then i = f, otherwise i = g;
 			var i = (h === true) ? f : g;
 
-			// array literal
+			// array literals
 			var arr1 = []; 
 			var arr2 = [1, 2, 3];
 
-			// object
+			// objects
 			var obj1 = {}; 
 			var obj2 = {x: 36, y: 77};
 

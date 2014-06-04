@@ -1,3 +1,5 @@
+// practice is really the only way to become advanced, no matter what you read here...
+
 // practice writing arrays, object, functions
 (function() {
 	var myArray = [];
@@ -26,17 +28,6 @@
 	var ps = pointSystem.getPoint();
 })();
 
-// foreach with function closure
-(function() {
-
-var numberList = [123, 234, 345, 456, 457];
-	
-	numberList.forEach(function(num){
-		var j = num + 1;
-		console.log(j);
-	})
-
-})();
 
 
 	//foreach

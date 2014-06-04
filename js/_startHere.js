@@ -26,3 +26,9 @@
 // ES5 'strict mode' attempts to fix some language defects, you'll see I've defined it at the top of this file
 // you can opt in to ES5 Strict Mode by putting 'use strict' at the top of your function or javascript file
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode
+
+// p.s.s 
+
+// this guide isn't a book and doesn't cover javsascript comprehensively
+// it is only intended to help people get a basic understanding and 
+// learn about some of the quirks of the language

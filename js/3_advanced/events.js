@@ -1,4 +1,4 @@
-            //string sFileScript = "<div class=\"FilePickerWrapper\"><input type=\"button\" value=\"Browse\"  /><INPUT TYPE=\"FILE\" NAME=\"fileBrowser\" ID=\"fileBrowser\"" + disabledScript + "\" TABINDEX=\"" + this.TabIndex.ToString() + "\" onpropertychange=\"" + sScriptCall + "\"></div>";
+events            //string sFileScript = "<div class=\"FilePickerWrapper\"><input type=\"button\" value=\"Browse\"  /><INPUT TYPE=\"FILE\" NAME=\"fileBrowser\" ID=\"fileBrowser\"" + disabledScript + "\" TABINDEX=\"" + this.TabIndex.ToString() + "\" onpropertychange=\"" + sScriptCall + "\"></div>";
             string sFileScript = "<div class=\"FilePickerWrapper\"><input type=\"button\" value=\"Browse\" /><input type=\"file\" name=\"fileBrowser\" id=\"fileBrowser\" tabindex=\"" + this.TabIndex.ToString() + "\"" + disabledScript + "/></div>";
             sFileScript += "<script>document.getElementById(\"fileBrowser\").addEventListener(\"change\", function() {var $textBox = $(\"#" + this.m_ctlFileName.ClientID + "\");$textBox.val($(this).val());$textBox.change();}, false);</script>";
             m_oLiteral.Text = sFileScript;

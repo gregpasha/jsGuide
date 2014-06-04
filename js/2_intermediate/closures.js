@@ -1,9 +1,5 @@
+
 // There are 3 things to remember about closures
-
-// This is an IIFE (Immedately Invoked Function Expression), they are handy for environment setup, and limiting variable scope
-(function( ){
-
-}());
 
 /*
 1) You can refer to varibles outside the current function, here the inner function - Make references magicIngredient
@@ -90,4 +86,17 @@ that get/set the values of a local variable "val" of the box function
 	// console.log(b.get()); // 98.6
 	// console.log(b.type()); // number
 }());
+
+
+// foreach with function closure
+(function() {
+
+var numberList = [123, 234, 345, 456, 457];
+	
+	numberList.forEach(function(num){
+		var j = num + 1;
+		console.log(j);
+	})
+
+})();
 
