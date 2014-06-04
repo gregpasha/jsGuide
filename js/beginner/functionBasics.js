@@ -7,12 +7,14 @@ define(function(require) {
 
 		// function declaration
 		// just your basic function, it does some work and returns a value
+		// function declarations are hoisted to the top of a function just like variables
 		function addXY(x, y) {
 			return x + y;
 		}
 
 		// anonymous function expression 
 		// this creates an anonymous function and assigns it to a variable (square)
+		// function expressions arne't hoisted, but the variables are (as undefined) 
 		var square = function(x) {
 			return x*x;
 		}; 
@@ -47,7 +49,7 @@ define(function(require) {
 		}	
 
 	}
-	
+		
 	return functionBasics;
 });
 
