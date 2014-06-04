@@ -3,18 +3,21 @@ define(function(require) {
 
 	var core = function() {
 
-		// warning - give variables good names, mine are terrible in this sample module because it doesn't do anything and ... lazy
+		// warning - give variables good names, mine are terrible in this sample module 
+		// because it doesn't do anything and ... lazy
 		(function(){
 
 			// javascript is written in Unicode and is case senstive			
 			var notEqual = ("x" !== "X"); // true;
 
-			// javascript ignores whitespace
-
+			// javascript ignores whitespace, I tend to put plenty in
+			// as it is more readable and it gets removed during the build process
+			
 			
 			// this is a semi-colon, put one at the end of every line
 			// if you don't, javascript will do it automatically
-			// wars have been started over less then ASI (Automatic Semicolon Insertion), personally, I put them in.
+			// wars have been started over less then ASI (Automatic Semicolon Insertion), 
+			// personally, I put them in.
 			;
 
 			// all numbers - integers and floats are both represented as 64 bit double floating point values
