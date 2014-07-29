@@ -131,87 +131,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "// Closures are \n// There are 3 things to remember about closures\n\n/*\n1) You can refer to varibles outside the current function, here the inner function - Make references magicIngredient\n*/\n(function( ){\n	function makeSandwich() {\n		var magicIngredient = \"peanut butter\";\n		function make(filling) {\n			return magicIngredient + \" and \" + filling;\n		}\n		return make(\"jelly\");\n	}\n	var sandyType = makeSandwich();\n	// console.log(sandyType); // peanut butter and jelly\n}());\n\n/*\n2) Functions can refer to variables defined in outer functions even after those outer functions have returned\n*/\n(function() {\n	function sandwhichMaker() {\n		var magicIngredient = \"almond butter\";\n		function make(filling) {\n			return magicIngredient + \" and \" + filling;\n		}\n		return make;\n	}\n	var sandyMaker = sandwhichMaker();\n	var sandyType = sandyMaker(\"honey\");\n	// console.log(sandyType); // almond butter and honey\n	// console.log(sandyMaker(\"banana\")); // almond butter and banana\n}());\n\n/*\nClosures can refer to parameters in addition to variables\n*/\n(function() {\n	function sandwhichMaker(magicIngredient) {\n		function make(filling) {\n			return magicIngredient + \" and \" + filling;\n		}\n		return make;\n	}\n	var hamSammy = sandwhichMaker(\"ham\");\n	var hamandcheese = hamSammy(\"cheese\");\n	// console.log(hamandcheese); // ham and cheese\n	var hamandmustard = hamSammy(\"mustard\");\n	// console.log(hamandmustard); // ham and mustard\n}());\n\n/*\nWe can just make the inner function anonymous since we're only evaluating it to produce a new function value\n*/\n(function() {\n	function sandwichMaker(magicIngredient) {\n		return function (filling) {\n			return magicIngredient + \" and \" + filling;\n		}\n	}\n	var turkeySammy = sandwichMaker(\"turkey\");\n	var swissy = turkeySammy(\"swiss\");\n	// console.log(swissy); // turkey and swiss\n}());\n\n/*\n3) Closures can update outer variables because they store references to them rather than copying their values.\nThis example returns an object literal with some methods (functions assigned to properties) \nthat get/set the values of a local variable \"val\" of the box function\n*/\n(function() {\n	function box() {\n		var val = undefined;\n		return {\n			set: function(newVal) {\n				val = newVal;\n			},	\n			get: function( ){return val;},\n			type: function() {return typeof val;}\n		};\n	}\n	var b = box();\n	// console.log(b.type()); // undefined\n	b.set(98.6);\n	// console.log(b.get()); // 98.6\n	// console.log(b.type()); // number\n}());\n\n\n// foreach with function closure\n(function() {\n\nvar numberList = [123, 234, 345, 456, 457];\n	\n	numberList.forEach(function(num){\n		var j = num + 1;\n		console.log(j);\n	})\n\n})();\n\n",
-			"file": "js/2_intermediate/closures.js",
-			"file_size": 2597,
-			"file_write_time": 1401858690000000,
-			"settings":
-			{
-				"buffer_size": 2613,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/1_beginner/scope.js",
-			"settings":
-			{
-				"buffer_size": 205,
-				"line_ending": "Unix",
-				"name": "sc"
-			}
-		},
-		{
-			"file": "js/1_beginner/basics.js",
-			"settings":
-			{
-				"buffer_size": 1556,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "",
-			"file": "js/2_intermediate/functions2.js",
-			"file_size": 342,
-			"file_write_time": 1401858552000000,
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/2_intermediate/this.js",
-			"settings":
-			{
-				"buffer_size": 346,
-				"line_ending": "Unix",
-				"name": "this"
-			}
-		},
-		{
-			"file": "js/2_intermediate/eventlistener1.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/3_advanced/events.js",
-			"settings":
-			{
-				"buffer_size": 2077,
-				"line_ending": "Unix",
-				"name": "events"
-			}
-		},
-		{
-			"file": "js/3_advanced/practice.js",
-			"settings":
-			{
-				"buffer_size": 667,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/_startHere.js",
-			"settings":
-			{
-				"buffer_size": 1772,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -245,9 +164,19 @@
 	},
 	"file_history":
 	[
-		"/Users/gbailey/Sites/jsGuide/js/1_beginner/core.js",
+		"/Users/gbailey/Sites/jsGuide/js/2_intermediate/closures.js",
+		"/Users/gbailey/Sites/jsGuide/js/1_beginner/scope.js",
+		"/Users/gbailey/Sites/jsGuide/js/1_beginner/basics.js",
+		"/Users/gbailey/Sites/jsGuide/js/2_intermediate/functions2.js",
+		"/Users/gbailey/Sites/jsGuide/js/2_intermediate/this.js",
+		"/Users/gbailey/Sites/jsGuide/js/2_intermediate/eventlistener1.js",
+		"/Users/gbailey/Sites/jsGuide/js/3_advanced/events.js",
+		"/Users/gbailey/Sites/jsGuide/js/3_advanced/practice.js",
 		"/Users/gbailey/Sites/jsGuide/js/_startHere.js",
+		"/Users/gbailey/Sites/jsGuide/js/2_intermediate/ooProgramming.js",
+		"/Users/gbailey/Sites/jsGuide/js/2_intermediate/inheritance.js",
 		"/Users/gbailey/Sites/jsGuide/index.html",
+		"/Users/gbailey/Sites/jsGuide/js/1_beginner/core.js",
 		"/Users/gbailey/Sites/jsGuide/js/basics/core.js",
 		"/Users/gbailey/Sites/jsGuide/js/basics/functionBasics.js",
 		"/Users/gbailey/Sites/jsGuide/js/intermediate/privateData.js",
@@ -259,10 +188,7 @@
 		"/Users/gbailey/Sites/jsGuide/js/readFirst/startHere.js",
 		"/Users/gbailey/Sites/jsGuide/js/readFirst/_startHere.js",
 		"/Users/gbailey/Sites/jsGuide/js/readFirst/ecmaScript.js",
-		"/Users/gbailey/Sites/jsGuide/js/3_advanced/practice.js",
 		"/Users/gbailey/Sites/jsGuide/js/2_intermediate/languageFeatures",
-		"/Users/gbailey/Sites/jsGuide/js/2_intermediate/closures.js",
-		"/Users/gbailey/Sites/jsGuide/js/2_intermediate/functions2.js",
 		"/Users/gbailey/Sites/jsGuide/js/3_advanced/gotchas.js",
 		"/Users/gbailey/Sites/jsGuide/js/app.js",
 		"/Users/gbailey/Sites/jsGuide/js/require_config.js",
@@ -365,14 +291,7 @@
 		"/Users/gbailey/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/gbailey/Library/Application Support/Sublime Text 2/Packages/User/vsdark.sublime-settings",
 		"/Users/gbailey/Sites/JavascriptGuide/scripts/utility.js",
-		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/advent direct reference/._adhome.html",
-		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/advent direct reference/pageModel.js",
-		"/Users/gbailey/Sites/Require/RequireKendo2/scripts/app/palette2.js",
-		"/Users/gbailey/Sites/Require/RequireKendo2/build.js",
-		"/Users/gbailey/Sites/Require/RequireKendo1/scripts/app/main.js",
-		"/Users/gbailey/Sites/Require/RequireKendo1/scripts/main.js",
-		"/Users/gbailey/Sites/Require/RequireKendo1/scripts/app/mylibs/utils.js",
-		"/Users/gbailey/Sites/Require/RequireKendo1/scripts/app/mylibs/palette.js"
+		"/Volumes/C/Users/gbailey.ADVENT/Code/advent/advent direct reference/._adhome.html"
 	],
 	"find":
 	{
@@ -552,248 +471,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "js/2_intermediate/closures.js",
-					"settings":
-					{
-						"buffer_size": 2613,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								16,
-								16
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/1_beginner/scope.js",
-					"settings":
-					{
-						"buffer_size": 205,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								205,
-								205
-							]
-						],
-						"settings":
-						{
-							"auto_name": "sc",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "js/1_beginner/basics.js",
-					"settings":
-					{
-						"buffer_size": 1556,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1411,
-								1411
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 158.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "js/2_intermediate/functions2.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "js/2_intermediate/this.js",
-					"settings":
-					{
-						"buffer_size": 346,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								346,
-								346
-							]
-						],
-						"settings":
-						{
-							"auto_name": "this",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "js/2_intermediate/eventlistener1.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "js/3_advanced/events.js",
-					"settings":
-					{
-						"buffer_size": 2077,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2077,
-								2077
-							]
-						],
-						"settings":
-						{
-							"auto_name": "events",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "js/3_advanced/practice.js",
-					"settings":
-					{
-						"buffer_size": 667,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								87,
-								87
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "js/_startHere.js",
-					"settings":
-					{
-						"buffer_size": 1772,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1508,
-								1508
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

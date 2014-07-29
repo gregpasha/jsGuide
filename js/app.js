@@ -11,21 +11,8 @@ require.config({
 });
 
 // load modules
-require([
-    'jQuery',
-    'modules/blankObjectModule',
-    'modules/blankFunctionModule',
-    'basics/variableNames',
-    'basics/core',
-    'basics/truthyfalsy'
-    ], function(
-        $,
-        variableNames,
-        core,
-        truthyfalsy) {
-    
-    var varNames = new variableNames();
-    truthyfalsy();   
+require(['jQuery','2_intermediate/ooProgramming'], function($,ooProgramming) {    
+    ooProgramming();
     console.log('jQuery version:', $.fn.jquery); 
 });
 
