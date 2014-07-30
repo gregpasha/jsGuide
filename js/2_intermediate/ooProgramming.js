@@ -76,7 +76,7 @@ define(function(require) {
 			Person.prototype.age = 28;
 			Person.prototype.job = 'se';
 			Person.prototype.sayName = function() {
-				console.log(this.name);
+				//console.log(this.name);
 			};
 
 			var p1 = new Person();
@@ -101,8 +101,8 @@ define(function(require) {
 			Person.prototype = {
 				constructor: Person,
 				sayName: function() {
-					console.log(name);
-				};
+					//console.log(name);
+				}
 			}
 
 			var p1 = new Person('nick',28,'se');
@@ -126,7 +126,7 @@ define(function(require) {
 				// only called once during prototype initialization	
 				if (typeof this.sayName !== 'function') {
 					Person.prototype.sayName = function( ){
-						console.log(this.name);
+						//console.log(this.name);
 					};
 				}
 			}
@@ -134,10 +134,57 @@ define(function(require) {
 		})();
 
 		// parasitic constructor pattern
+		/* use this as a fallback when other patterns fail
+		* create a constructor that wraps the creation and return of another object
+		* this pattern allows you to create constructors for objects that my not be possible otherwise
+		* ex: you may want to create a special array that has an extra method
+		*/
 
+		(function() {
+			function Person(name, age, job) {
+				var o = new Object();
+				o.name = name;
+				o.age = age;
+				o.job = job;
+				o.sayName = function() {
+					//console.log(this.name);
+				};
+
+				return o;
+			}
+
+			var friend = new Person('nick',29,'se');
+			friend.sayName();
+		})();
+
+		(function() {
+			function MyArray() {
+				var values = new Array();
+				values.push.apply(values, arguments);
+				values.toPipedString = function() {
+					return this.join(" | ");
+				};
+			}
+		})();
+		
 		// durable constructor pattern
 
-		
+		// * Inheritance * 
+
+		// prototype chaining
+
+		// constructor sealing
+
+		// combination inhertiance
+
+		// prototypal inheritance
+
+		// parasitic inheritance
+
+		// parasitic combination inheritance
+
+		// summary
+
 	}
 
 	return ooProgramming;
