@@ -138,8 +138,7 @@ define(function(require) {
 		* create a constructor that wraps the creation and return of another object
 		* this pattern allows you to create constructors for objects that my not be possible otherwise
 		* ex: you may want to create a special array that has an extra method
-		*/
-
+		*/	
 		(function() {
 			function Person(name, age, job) {
 				var o = new Object();
@@ -153,7 +152,7 @@ define(function(require) {
 				return o;
 			}
 
-			var friend = new Person('nick',29,'se');
+			var friend = new Person('nick', 29, 'se');
 			friend.sayName();
 		})();
 
@@ -168,9 +167,7 @@ define(function(require) {
 		})();
 		
 		// durable constructor pattern
-
-		// * Inheritance * 
-
+		
 		// prototype chaining
 
 		// constructor sealing
@@ -185,7 +182,100 @@ define(function(require) {
 
 		// summary
 
-	}
+
+
+
+	// ***** Prototypal Inheritance *****
+		/*
+			* In prototypal inheritance, we directly create a new object from an existing object, without any notion of classes. 
+			* Here we use “Object.create” to create a new object; it takes a parameter object which will be the prototype for the new object.
+		*/
+		(function() {
+			var superhuman = {
+				name: null,
+				power: null,
+				usePower: function( ){
+					console.log("used power" + name);	
+				}
+			}
+
+			var cptAmerica = Object.create(superhuman);
+			cptAmerica.name = "Captain America";
+			cptAmerica.power = 'Awesome Stuff';
+			cptAmerica.usePower();
+			
+			var superMan = Object.create(superhuman);
+			superMan.name = "SuperMan";
+			superMan.power = "Flight";
+				
+		})();
+
+		/***** PseudoClassical Inheritance *****
+		/*
+			*The pattern of pseudoclassical inheritance uses “constructor function” and the “new” operator to create objects, 
+			*and uses the “prototype” property to build the inheritance chain. A constructor function is given a “prototype” property; 
+			*this property is inherited by all instances.
+		*/
+		(function() {
+
+			// SuperHuman
+			function SuperHuman(name, power) {
+				this.name = name;
+				this.power = power;
+			}
+
+			SuperHuman.prototype.usePower = function() {
+				console.log(this.name + " used the power " + this.power);
+			};
+
+			// SuperHero
+			function SuperHero(name, power, allegiance) {
+				SuperHuman.call(this, name, power);
+				this.alignment = "good";
+				this.allegiance = allegiance;
+			}			
+			SuperHero.prototype = new SuperHuman();			
+			
+			SuperHero.prototype.saveTheDay = function( ){
+				this.usePower();
+				console.log(this.name + " saved the day");
+			};
+
+			// SuperVillain
+			function SuperVillain(name, power, allegiance) {
+				SuperHuman.call(this, name, power);
+				this.alignment = "evil";
+				this.allegiance = allegiance;
+			}
+			SuperVillain.prototype = new SuperHuman();
+			SuperVillain.prototype.executeMasterPlan = function( ){
+				this.usePower();
+				console.log(this.name + " executed master plan " );
+			};
+
+			// Fight!
+			var cptAmerica = new SuperHero('Captain America', 'Athletics', 'Justice League');
+			cptAmerica.saveTheDay();
+			cptAmerica instanceof SuperHero; // true
+			cptAmerica instanceof SuperHuman; // true
+
+			var superMan = new SuperHero('Superman', 'Man of Steel', 'Indy');
+			superMan.saveTheDay();
+			var t = superMan instanceof SuperHero; // true
+			t = superMan instanceof SuperHuman; // true
+
+			var drDoom = new SuperVillain('Doctor Doom', 'Telepathy', 'Legion of Doom');			
+			drDoom.executeMasterPlan();
+			t = drDoom instanceof SuperHuman; // true
+			t = drDoom instanceof SuperVillain; // true
+
+		})();
+
+	
+
+
+
+}
 
 	return ooProgramming;
 });
