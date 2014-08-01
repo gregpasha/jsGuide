@@ -210,7 +210,7 @@ define(function(require) {
 				
 		})();
 
-		/***** PseudoClassical Inheritance *****
+		/***** PseudoClassical Inheritance (using new SuperHuman) *****
 		/*
 			*The pattern of pseudoclassical inheritance uses “constructor function” and the “new” operator to create objects, 
 			*and uses the “prototype” property to build the inheritance chain. A constructor function is given a “prototype” property; 
@@ -271,8 +271,50 @@ define(function(require) {
 
 		})();
 
-	
+		/***** PseudoClassical Inheritance (using Object.Create) *****
+		/*
+			*The pattern of pseudoclassical inheritance uses “constructor function” and the “new” operator to create objects, 
+			*and uses the “prototype” property to build the inheritance chain. A constructor function is given a “prototype” property; 
+			*this property is inherited by all instances.
+		*/
+		(function() {
 
+			// SuperHuman
+			function SuperHuman(name, power) {
+				this.name = name;
+				this.power = power;
+			}
+
+			SuperHuman.prototype.usePower = function() {
+				console.log(this.name + " used the power " + this.power);
+			};
+
+			// SuperHero
+			function SuperHero(name, power, allegiance) {
+				SuperHuman.call(this, name, power);
+				this.alignment = "good";
+				this.allegiance = allegiance;
+			}			
+			SuperHero.prototype = Object.create(SuperHuman.prototype);	
+			
+			SuperHero.prototype.saveTheDay = function( ){
+				this.usePower();
+				console.log(this.name + " saved the day");
+			};
+
+			// Fight!
+			var cptAmerica = new SuperHero('Captain America', 'Athletics', 'Justice League');
+			cptAmerica.saveTheDay();
+			cptAmerica instanceof SuperHero; // true
+			cptAmerica instanceof SuperHuman; // true
+
+			var superMan = new SuperHero('Superman', 'Man of Steel', 'Indy');
+			superMan.saveTheDay();
+			var t = superMan instanceof SuperHero; // true
+			t = superMan instanceof SuperHuman; // true
+
+
+		})();
 
 
 }
